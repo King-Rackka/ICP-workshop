@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-image: url(../img/bangunan-sekol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 99.8%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.isi {
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 63px;
+    background: rgba(29,38,125, 0.5);
+    color: white;
+    align-items: center;
+    padding: 15px;
+    font-size: larger;
+    text-align: justify;
+}
+
+.detail {
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.berita-box {
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.berita {
+    width: 400px;
+    height: auto;
+    margin: 10px auto 10px auto;
+    text-align: justify;
+    padding: 7px;
+    background-color: #D4ADFC;
+    border-radius: 7px;
+}
+
+.berita h3 {
+    margin: 0;
+}
+
+.profil-box {
+    background-color: #D4ADFC;
+    border-radius: 7px;
+    margin: auto;
+    width: 280px;
+    top: -10%;
+    height: 600px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.profil-box img {
+    border-radius: 7px;
+}
